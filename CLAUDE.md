@@ -16,8 +16,9 @@
 - sitemap.xml — 사이트맵 (3개 페이지 등록)
 - robots.txt — 크롤링 규칙
 - naver8bdb95fe081d2ea8ecae0db3fb612b5b.html — 네이버 서치어드바이저 인증
+- _headers — Cloudflare Pages 보안 헤더 (CSP, X-Frame-Options 등)
 - AGENTS.md — AI 에이전트 규칙
-- .gitignore — git 제외 설정
+- .gitignore — git 제외 설정 (.env, *.log, node_modules/ 등)
 
 ## 기술 스택
 - HTML / Tailwind CSS (CDN)
@@ -44,6 +45,15 @@
 ## UI 기능
 - 스크롤 탑 버튼 — 전체 페이지 적용 (스크롤 400px 이상 시 우측 하단 표시)
 - Hero 배경 동영상 오버레이 밝기 조정 (55%/45%)
+
+## 보안
+- Cloudflare 보안 헤더 (_headers 파일)
+  - CSP: Tailwind CDN, Google Fonts만 허용
+  - X-Frame-Options: DENY (클릭재킹 차단)
+  - X-Content-Type-Options: nosniff
+  - Referrer-Policy: strict-origin-when-cross-origin
+  - Permissions-Policy: 카메라/마이크/위치 차단
+- .gitignore: .env, *.log, node_modules/, IDE 설정 등 제외
 
 ## 세션 시작 루틴
 1. `git log --oneline -10` 실행해서 최근 작업 확인
