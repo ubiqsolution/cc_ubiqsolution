@@ -4,16 +4,18 @@
 - https://github.com/ubiqsolution/cc_ubiqsolution
 - 브랜치: main
 - 도메인: https://ubiqsolution.pages.dev
+- 사이트맵: https://ubiqsolution.pages.dev/sitemap.xml
 
 ## 프로젝트 구조
 - index.html — 메인 랜딩페이지 (핵심 파일)
 - privacy.html — 개인정보처리방침
 - terms.html — 이용약관
-- logo.png — 로고 이미지 (32x32 표시, Header/Footer 사용)
+- logo.png — 로고 이미지 (가로형, Header/Footer 사용, 투명배경)
 - favicon.png — 파비콘
 - ogimg.png — OG 이미지 (소셜 공유용)
-- sitemap.xml — 사이트맵
+- sitemap.xml — 사이트맵 (3개 페이지 등록)
 - robots.txt — 크롤링 규칙
+- naver8bdb95fe081d2ea8ecae0db3fb612b5b.html — 네이버 서치어드바이저 인증
 - AGENTS.md — AI 에이전트 규칙
 - .gitignore — git 제외 설정
 
@@ -21,13 +23,27 @@
 - HTML / Tailwind CSS (CDN)
 - Google Fonts (Noto Sans KR)
 
+## 로고 사이즈
+- Header: PC 220px / 모바일 170px (h-auto)
+- Footer: PC 200px / 모바일 160px (h-auto)
+- privacy, terms 페이지: PC 180px / 모바일 140px (h-auto)
+- 로고 옆 텍스트 없음 (이미지만 사용)
+
 ## SEO / AEO 적용 현황
 - meta description, canonical URL
+- meta keywords (AI컨설팅, 랜딩페이지, 유비큐솔루션, 시드팜 등)
+- meta robots (index, follow)
 - Open Graph (og:title, og:description, og:image, og:url)
-- Twitter Card (summary_large_image)
-- JSON-LD 구조화 데이터 (Service, FAQPage)
+- Twitter Card (summary_large_image + twitter:image)
+- JSON-LD 구조화 데이터 (Service + keywords, FAQPage)
+- JSON-LD 회사 주소 (경기도 구리시 아차산로500번길 16 102호)
 - robots.txt, sitemap.xml
 - favicon, og:image
+- 네이버 서치어드바이저 인증
+
+## UI 기능
+- 스크롤 탑 버튼 — 전체 페이지 적용 (스크롤 400px 이상 시 우측 하단 표시)
+- Hero 배경 동영상 오버레이 밝기 조정 (55%/45%)
 
 ## 세션 시작 루틴
 1. `git log --oneline -10` 실행해서 최근 작업 확인
