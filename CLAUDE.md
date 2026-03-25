@@ -30,6 +30,19 @@
 - privacy, terms 페이지: PC 180px / 모바일 140px (h-auto)
 - 로고 옆 텍스트 없음 (이미지만 사용)
 
+## 핵심 서비스
+- AI 컨설팅
+- AI Agent 개발
+- 데이터 분석 플랫폼
+
+## 사업자 정보 (Footer)
+- 상호: 유비큐솔루션
+- 대표: 김시기
+- 사업자등록번호: 132-10-98552
+- 주소: 경기도 구리시 아차산로500번길 16 102호
+- 전화: 1600-5693
+- 이메일: 9292@ubiqsolution.com
+
 ## SEO / AEO 적용 현황
 - meta description, canonical URL
 - meta keywords (AI컨설팅, 랜딩페이지, 유비큐솔루션, 시드팜 등)
