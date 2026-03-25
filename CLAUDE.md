@@ -10,9 +10,9 @@
 - index.html — 메인 랜딩페이지 (핵심 파일)
 - privacy.html — 개인정보처리방침
 - terms.html — 이용약관
-- logo.png — 로고 이미지 (가로형, Header/Footer 사용, 투명배경)
-- favicon.png — 파비콘
-- ogimg.png — OG 이미지 (소셜 공유용)
+- logo.png — 로고 이미지 (UBIQ SOLUTION 흰색 텍스트, 투명배경, Header/Footer 사용)
+- favicon.png — 파비콘 (U 심볼 아이콘, 블루 계열)
+- ogimg.png — OG 이미지 (다크 배경 + UBIQ SOLUTION + AI & IT Company)
 - sitemap.xml — 사이트맵 (3개 페이지 등록)
 - robots.txt — 크롤링 규칙
 - naver8bdb95fe081d2ea8ecae0db3fb612b5b.html — 네이버 서치어드바이저 인증
