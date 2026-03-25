@@ -48,6 +48,7 @@
 - meta keywords (AI컨설팅, 랜딩페이지, 유비큐솔루션, 시드팜 등)
 - meta robots (index, follow)
 - Open Graph (og:title, og:description, og:image, og:url)
+- OG/Twitter 이미지 캐시 버스팅 적용 (`ogimg.png?v=2`)
 - Twitter Card (summary_large_image + twitter:image)
 - JSON-LD 구조화 데이터 (Service + keywords, FAQPage)
 - JSON-LD 회사 주소 (경기도 구리시 아차산로500번길 16 102호)
