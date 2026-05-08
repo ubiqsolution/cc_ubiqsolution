@@ -8,3 +8,7 @@ node_modules/
 *.swp
 *.swo
 Thumbs.db
+
+# AI 에이전트 컨텍스트 파일 (로컬 전용)
+CLAUDE.md
+AGENTS.md
