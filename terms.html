@@ -4,179 +4,240 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>이용약관 | 유비큐솔루션</title>
-  <meta name="description" content="유비큐솔루션 이용약관">
+  <meta name="description" content="유비큐솔루션 서비스 이용약관 — AI 컨설팅, AI Agent 개발, 데이터 분석 플랫폼 등 서비스 이용에 관한 권리·의무를 규정합니다.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ubiqsolution.pages.dev/terms.html">
+  <link rel="icon" type="image/png" href="favicon.png">
 
-  <!-- Google Fonts -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Noto Sans KR', 'sans-serif'],
-          },
-        },
-      },
-    }
-  </script>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="legal.css">
 </head>
-<body class="bg-slate-950 text-slate-300 font-sans">
+<body>
 
   <!-- Header -->
-  <header class="py-6 border-b border-white/10">
-    <div class="max-w-4xl mx-auto px-4 md:px-8 flex items-center justify-between">
-      <a href="index.html" class="flex items-center">
-        <img src="logo.png" alt="유비큐솔루션 로고" width="220" height="107" class="w-[140px] md:w-[180px] h-auto">
+  <header class="header">
+    <div class="shell nav">
+      <a href="index.html" class="logo" aria-label="유비큐솔루션 홈으로">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span>UBIQSOLUTION</span>
       </a>
-      <a href="index.html" class="text-sm text-slate-400 hover:text-white transition-colors">&larr; 메인으로</a>
+      <nav class="nav-links" aria-label="primary">
+        <a href="index.html#why-us"><span class="num">01</span>강점</a>
+        <a href="index.html#services"><span class="num">02</span>서비스</a>
+        <a href="index.html#target"><span class="num">03</span>도입 대상</a>
+        <a href="index.html#process"><span class="num">04</span>진행 절차</a>
+        <a href="index.html#faq"><span class="num">05</span>FAQ</a>
+      </nav>
+      <a href="index.html#cta" class="nav-cta">
+        <span class="dot"></span> 무료 상담
+      </a>
     </div>
   </header>
 
-  <!-- Content -->
-  <main class="max-w-4xl mx-auto px-4 md:px-8 py-16">
-    <h1 class="text-3xl font-bold text-white mb-2">이용약관</h1>
-    <p class="text-sm text-slate-500 mb-12">시행일: 2026년 1월 1일</p>
-
-    <div class="space-y-10 text-base leading-relaxed">
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">제1조 (목적)</h2>
-        <p>본 약관은 유비큐솔루션(이하 "회사")이 제공하는 웹사이트 및 서비스(이하 "서비스")의 이용 조건과 절차, 회사와 이용자 간의 권리·의무 및 책임사항을 규정함을 목적으로 합니다.</p>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">제2조 (정의)</h2>
-        <ul class="list-disc list-inside space-y-2 text-slate-400">
-          <li><strong class="text-slate-300">"서비스"</strong>란 회사가 제공하는 AI 컨설팅, 맞춤 소프트웨어 개발, 데이터 분석 플랫폼 및 이에 부수하는 모든 서비스를 말합니다.</li>
-          <li><strong class="text-slate-300">"이용자"</strong>란 본 약관에 따라 회사가 제공하는 서비스를 이용하는 자를 말합니다.</li>
-          <li><strong class="text-slate-300">"계약"</strong>이란 서비스 이용과 관련하여 회사와 이용자 간에 체결하는 계약을 말합니다.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">제3조 (약관의 효력 및 변경)</h2>
-        <ul class="list-decimal list-inside space-y-2 text-slate-400">
-          <li>본 약관은 서비스를 이용하고자 하는 모든 이용자에게 적용됩니다.</li>
-          <li>회사는 필요한 경우 관련 법령에 위배되지 않는 범위에서 약관을 변경할 수 있으며, 변경된 약관은 적용일자 7일 전부터 웹사이트를 통해 공지합니다.</li>
-          <li>이용자가 변경된 약관에 동의하지 않는 경우 서비스 이용을 중단할 수 있습니다.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">제4조 (서비스의 내용)</h2>
-        <p class="mb-3">회사가 제공하는 서비스는 다음과 같습니다.</p>
-        <ul class="list-disc list-inside space-y-1 text-slate-400">
-          <li>AI 컨설팅: 기업 맞춤형 AI 전략 수립 및 도입 지원</li>
-          <li>맞춤 소프트웨어 개발: 비즈니스 요구사항에 최적화된 소프트웨어 설계 및 개발</li>
-          <li>데이터 분석 플랫폼: 데이터 기반 의사결정을 위한 분석 시스템 구축</li>
-          <li>기타 위 서비스에 부수하는 기술 지원 및 유지보수</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">제5조 (계약의 성립)</h2>
-        <ul class="list-decimal list-inside space-y-2 text-slate-400">
-          <li>서비스 이용 계약은 이용자가 상담 신청 후 회사가 이를 승낙함으로써 성립됩니다.</li>
-          <li>구체적인 서비스 범위, 기간, 비용 등은 별도의 계약서를 통해 정합니다.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">제6조 (회사의 의무)</h2>
-        <ul class="list-decimal list-inside space-y-2 text-slate-400">
-          <li>회사는 관련 법령과 본 약관이 정하는 바에 따라 지속적이고 안정적인 서비스를 제공하기 위해 최선을 다합니다.</li>
-          <li>회사는 이용자의 개인정보를 보호하기 위해 개인정보처리방침을 수립하고 이를 준수합니다.</li>
-          <li>회사는 서비스 이용과 관련하여 이용자로부터 제기된 의견이나 불만이 정당하다고 인정되는 경우 이를 처리하기 위해 노력합니다.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">제7조 (이용자의 의무)</h2>
-        <p class="mb-3">이용자는 다음 행위를 해서는 안 됩니다.</p>
-        <ul class="list-disc list-inside space-y-1 text-slate-400">
-          <li>허위 정보를 제공하는 행위</li>
-          <li>회사의 서비스 운영을 방해하는 행위</li>
-          <li>타인의 명예를 손상시키거나 불이익을 주는 행위</li>
-          <li>회사의 지적재산권을 침해하는 행위</li>
-          <li>기타 관련 법령에 위반되는 행위</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">제8조 (지적재산권)</h2>
-        <ul class="list-decimal list-inside space-y-2 text-slate-400">
-          <li>회사가 제작한 서비스 관련 저작물에 대한 지적재산권은 회사에 귀속됩니다.</li>
-          <li>이용자를 위해 개발된 결과물의 지적재산권은 별도의 계약에 따릅니다.</li>
-          <li>이용자는 회사가 제공하는 서비스를 이용하여 얻은 정보를 회사의 사전 동의 없이 상업적으로 이용하거나 제3자에게 제공할 수 없습니다.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">제9조 (면책사항)</h2>
-        <ul class="list-decimal list-inside space-y-2 text-slate-400">
-          <li>회사는 천재지변, 전쟁, 기간통신사업자의 서비스 중지 등 불가항력적 사유로 서비스를 제공할 수 없는 경우 책임이 면제됩니다.</li>
-          <li>회사는 이용자의 귀책사유로 인한 서비스 이용 장애에 대하여 책임을 지지 않습니다.</li>
-          <li>회사는 이용자가 서비스를 이용하여 기대하는 수익을 얻지 못한 것에 대해 책임을 지지 않습니다.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">제10조 (분쟁 해결)</h2>
-        <ul class="list-decimal list-inside space-y-2 text-slate-400">
-          <li>회사와 이용자 간에 발생한 분쟁에 관한 소송은 대한민국 법률을 적용합니다.</li>
-          <li>서비스 이용과 관련하여 분쟁이 발생한 경우, 양 당사자는 분쟁의 해결을 위해 성실히 협의합니다.</li>
-          <li>협의가 이루어지지 않는 경우 관할 법원에 소송을 제기할 수 있습니다.</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">제11조 (연락처)</h2>
-        <p class="mb-3">서비스 이용에 관한 문의는 아래로 연락해 주시기 바랍니다.</p>
-        <div class="bg-slate-900/50 rounded-lg p-5 border border-white/5">
-          <p class="text-slate-300"><strong class="text-white">유비큐솔루션</strong></p>
-          <p class="mt-2">전화: 1600-5693</p>
-          <p>이메일: 9292@ubiqsolution.com</p>
-          <p>상담시간: 평일 AM 10:00 ~ PM 17:00</p>
-        </div>
-      </section>
-
-      <section>
-        <h2 class="text-xl font-semibold text-white mb-4">부칙</h2>
-        <p>본 약관은 2026년 1월 1일부터 시행합니다.</p>
-      </section>
-
+  <main class="legal shell">
+    <div class="legal-meta">
+      <div class="hero-tagline">[ <span>&nbsp;LEGAL&nbsp;·&nbsp;TERMS&nbsp;</span> ]&nbsp;&nbsp;DOC.&nbsp;<span>T-001</span></div>
+      <div class="hero-tagline">시행일&nbsp;<span>2026.01.01</span></div>
     </div>
+
+    <h1 class="legal-title">서비스<br><em>이용약관</em></h1>
+    <p class="legal-lead">
+      본 약관은 유비큐솔루션(이하 '회사')이 제공하는 AI 컨설팅, AI Agent 개발, 데이터 분석 플랫폼 등
+      일체의 서비스 이용과 관련하여 회사와 이용자(이하 '고객') 간의 권리, 의무 및 책임 사항을 규정합니다.
+    </p>
+
+    <nav class="legal-toc" aria-label="목차">
+      <div class="toc-label">목차 / TABLE OF CONTENTS</div>
+      <ol>
+        <li><a href="#a1"><span class="n">01</span>목적 및 적용 범위</a></li>
+        <li><a href="#a2"><span class="n">02</span>용어의 정의</a></li>
+        <li><a href="#a3"><span class="n">03</span>약관의 효력 및 변경</a></li>
+        <li><a href="#a4"><span class="n">04</span>서비스의 제공 및 변경</a></li>
+        <li><a href="#a5"><span class="n">05</span>계약 체결 및 해지</a></li>
+        <li><a href="#a6"><span class="n">06</span>회사의 의무</a></li>
+        <li><a href="#a7"><span class="n">07</span>고객의 의무</a></li>
+        <li><a href="#a8"><span class="n">08</span>지식재산권 및 비밀유지</a></li>
+        <li><a href="#a9"><span class="n">09</span>책임의 제한</a></li>
+        <li><a href="#a10"><span class="n">10</span>분쟁 해결 및 관할법원</a></li>
+      </ol>
+    </nav>
+
+    <article class="legal-article" id="a1">
+      <header class="art-h">
+        <span class="art-num">01</span>
+        <h2>목적 및 <em>적용 범위</em></h2>
+      </header>
+      <p>본 약관은 회사가 제공하는 모든 서비스의 이용 조건과 절차, 회사와 고객의 권리·의무·책임 사항 등 기본적인 사항을 규정함을 목적으로 합니다.</p>
+      <p>회사가 별도로 체결하는 개별 계약 또는 SOW(작업기술서)가 있는 경우, 해당 계약이 본 약관에 우선하여 적용됩니다.</p>
+    </article>
+
+    <article class="legal-article" id="a2">
+      <header class="art-h">
+        <span class="art-num">02</span>
+        <h2>용어의 <em>정의</em></h2>
+      </header>
+      <table class="legal-table">
+        <tbody>
+          <tr><th>서비스</th><td>회사가 제공하는 AI 컨설팅, AI Agent 개발, 데이터 분석 플랫폼 구축 및 관련 부가 서비스 일체</td></tr>
+          <tr><th>고객</th><td>본 약관에 동의하고 회사와 서비스 이용 계약을 체결한 법인 또는 개인사업자</td></tr>
+          <tr><th>산출물</th><td>회사가 서비스 제공 과정에서 작성한 보고서, 모델, 소스코드, 문서 등 일체의 결과물</td></tr>
+          <tr><th>비밀정보</th><td>당사자 간 개시된 일체의 기술적·경영상 정보 중 비밀로 표시되거나 그 성질상 비밀로 인정되는 정보</td></tr>
+        </tbody>
+      </table>
+    </article>
+
+    <article class="legal-article" id="a3">
+      <header class="art-h">
+        <span class="art-num">03</span>
+        <h2>약관의 <em>효력 및 변경</em></h2>
+      </header>
+      <p>본 약관은 회사가 홈페이지에 게시함으로써 효력이 발생하며, 고객이 서비스를 이용하기 위해 회사와 계약을 체결한 시점부터 양 당사자에게 적용됩니다.</p>
+      <p>회사는 관련 법령을 위배하지 않는 범위에서 본 약관을 변경할 수 있으며, 변경 시 시행일로부터 7일 전(고객에게 불리한 변경의 경우 30일 전)에 홈페이지를 통해 공지합니다.</p>
+    </article>
+
+    <article class="legal-article" id="a4">
+      <header class="art-h">
+        <span class="art-num">04</span>
+        <h2>서비스의<br><em>제공 및 변경</em></h2>
+      </header>
+      <ul class="art-list">
+        <li>AI 컨설팅: 비즈니스 진단, AI 전략 수립, PoC 설계 및 검증</li>
+        <li>AI Agent 개발: 업무 자동화 에이전트, LLM 기반 대화형 시스템 구축</li>
+        <li>데이터 분석 플랫폼: BI 대시보드, 예측 모델, 데이터 파이프라인 구축</li>
+        <li>유지보수 및 운영 지원, 교육 및 기술 자문</li>
+      </ul>
+      <p>회사는 운영상·기술상의 필요에 따라 서비스의 일부를 변경할 수 있으며, 중대한 변경 사항은 사전에 고객에게 통지합니다.</p>
+    </article>
+
+    <article class="legal-article" id="a5">
+      <header class="art-h">
+        <span class="art-num">05</span>
+        <h2>계약 체결 및 <em>해지</em></h2>
+      </header>
+      <p>서비스 이용 계약은 고객의 신청과 회사의 승낙으로 성립하며, 구체적인 범위·일정·대가는 개별 계약서에 따릅니다.</p>
+      <p>당사자 일방이 본 약관 또는 개별 계약을 중대하게 위반하고 14일 내에 시정하지 않는 경우, 상대방은 서면 통지로 계약을 해지할 수 있습니다.</p>
+    </article>
+
+    <article class="legal-article" id="a6">
+      <header class="art-h">
+        <span class="art-num">06</span>
+        <h2>회사의 <em>의무</em></h2>
+      </header>
+      <ul class="art-list">
+        <li>관련 법령 및 본 약관이 정하는 권리 행사 및 의무 이행</li>
+        <li>서비스 제공을 위한 안정적 운영 및 보안 시스템 유지</li>
+        <li>고객이 제공한 정보 및 자료의 비밀 유지</li>
+        <li>고객 의견 및 불만 사항 처리에 필요한 절차 마련</li>
+      </ul>
+    </article>
+
+    <article class="legal-article" id="a7">
+      <header class="art-h">
+        <span class="art-num">07</span>
+        <h2>고객의 <em>의무</em></h2>
+      </header>
+      <ul class="art-list">
+        <li>서비스 제공에 필요한 정보·자료를 적시에 제공</li>
+        <li>회사의 사전 동의 없이 서비스 또는 산출물을 제3자에게 양도·재판매하지 않을 것</li>
+        <li>관련 법령 및 본 약관 준수, 회사의 업무 방해 금지</li>
+        <li>대가의 정해진 기일 내 지급</li>
+      </ul>
+    </article>
+
+    <article class="legal-article" id="a8">
+      <header class="art-h">
+        <span class="art-num">08</span>
+        <h2>지식재산권 및<br><em>비밀유지</em></h2>
+      </header>
+      <p>서비스 제공 과정에서 발생하는 산출물의 지식재산권은 별도 합의가 없는 한 대가가 완납된 시점에 고객에게 이전됩니다. 단, 회사가 보유한 사전 자산(라이브러리, 노하우, 도구 등)에 대한 권리는 회사에 귀속됩니다.</p>
+      <p>당사자는 상대방의 비밀정보를 본 계약 목적 외에 사용하지 않으며, 계약 종료 후에도 3년간 비밀유지 의무를 부담합니다.</p>
+    </article>
+
+    <article class="legal-article" id="a9">
+      <header class="art-h">
+        <span class="art-num">09</span>
+        <h2>책임의 <em>제한</em></h2>
+      </header>
+      <p>회사는 천재지변, 전쟁, 통신 두절 등 불가항력으로 인한 서비스 중단에 대해 책임을 지지 않습니다.</p>
+      <p>회사의 손해배상 책임은 고객이 회사에 지급한 직전 12개월간의 대가를 한도로 합니다(고의 또는 중대한 과실의 경우 제외).</p>
+    </article>
+
+    <article class="legal-article" id="a10">
+      <header class="art-h">
+        <span class="art-num">10</span>
+        <h2>분쟁 해결 및<br><em>관할법원</em></h2>
+      </header>
+      <p>본 약관 또는 서비스 이용과 관련하여 분쟁이 발생한 경우, 당사자는 신의성실의 원칙에 따라 우선 협의를 통해 해결합니다.</p>
+      <p>협의가 이루어지지 않을 경우, 회사 본점 소재지 관할 지방법원을 제1심 관할법원으로 합니다.</p>
+      <p class="legal-meta-note">— 부칙: 본 약관은 2026.01.01.부터 시행합니다.</p>
+    </article>
+
+    <a href="index.html" class="legal-back">
+      <span class="arr">←</span> 메인으로 돌아가기
+    </a>
   </main>
 
   <!-- Footer -->
-  <footer class="py-8 border-t border-white/10">
-    <div class="max-w-4xl mx-auto px-4 md:px-8 text-center">
-      <p class="text-sm text-slate-500">&copy; 2026 유비큐솔루션. All rights reserved.</p>
+  <footer class="footer shell">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-sub">UBIQSOLUTION</div>
+        <h3 class="footer-slogan">AI<em>로</em> 비즈니스의<br>미래<em>를</em> 설계합니다.</h3>
+      </div>
+      <table class="biz-table">
+        <tbody>
+          <tr><th>상호</th><td>유비큐솔루션</td></tr>
+          <tr><th>대표</th><td>김시기</td></tr>
+          <tr><th>주소</th><td>경기도 구리시 아차산로500번길 16 102호</td></tr>
+          <tr><th>사업자등록번호</th><td>132-10-98552</td></tr>
+          <tr><th>전화</th><td><a href="tel:16005693">1600-5693</a></td></tr>
+          <tr><th>이메일</th><td><a href="mailto:9292@ubiqsolution.com">9292@ubiqsolution.com</a></td></tr>
+          <tr><th>상담시간</th><td>평일 AM 10:00 ~ PM 17:00</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2026 유비큐솔루션. All rights reserved.</div>
+      <div class="links">
+        <a href="privacy.html">개인정보처리방침</a>
+        <a href="terms.html">이용약관</a>
+      </div>
     </div>
   </footer>
 
-  <!-- 맨 위로 가기 버튼 -->
-  <button id="scroll-top" class="fixed bottom-6 right-6 w-12 h-12 bg-blue-500 hover:bg-blue-400 text-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 opacity-0 translate-y-4 pointer-events-none z-50" aria-label="맨 위로 이동">
-    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/>
+  <!-- Scroll-to-top -->
+  <button class="scroll-top" id="scroll-top" aria-label="맨 위로 이동">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 19V5"/>
+      <path d="M6 11l6-6 6 6"/>
     </svg>
   </button>
+
   <script>
+    // Smooth scroll for in-page anchors
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('a[href^="#"]');
+      if (!a) return;
+      const id = a.getAttribute('href');
+      if (id.length < 2) return;
+      const target = document.querySelector(id);
+      if (!target) return;
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    // Scroll to top
     const scrollTopBtn = document.getElementById('scroll-top');
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 400) {
-        scrollTopBtn.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
-        scrollTopBtn.classList.add('opacity-100', 'translate-y-0');
-      } else {
-        scrollTopBtn.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
-        scrollTopBtn.classList.remove('opacity-100', 'translate-y-0');
-      }
-    });
+      if (window.scrollY > 600) scrollTopBtn.classList.add('visible');
+      else scrollTopBtn.classList.remove('visible');
+    }, { passive: true });
     scrollTopBtn.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
