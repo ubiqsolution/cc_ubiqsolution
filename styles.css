@@ -817,8 +817,15 @@ a { color: inherit; text-decoration: none; }
   padding-top: 24px;
   border-top: 1px solid color-mix(in oklab, var(--paper) 20%, transparent);
   display: flex; align-items: center; gap: 12px;
+  word-break: keep-all;
+  line-height: 1.6;
+  text-wrap: pretty;
 }
-.cta-note::before { content: ""; width: 6px; height: 6px; background: var(--accent); border-radius: 999px; }
+.cta-note::before { content: ""; width: 6px; height: 6px; background: var(--accent); border-radius: 999px; flex: 0 0 auto; }
+@media (max-width: 600px) {
+  .cta-note { align-items: flex-start; letter-spacing: 0.08em; }
+  .cta-note::before { margin-top: 8px; }
+}
 .cta-orbit {
   position: absolute;
   right: -160px; top: -160px;
@@ -919,6 +926,9 @@ a { color: inherit; text-decoration: none; }
 }
 .scroll-top.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
 .scroll-top:hover { background: var(--accent); color: var(--accent-ink); }
+@media (max-width: 860px) {
+  .scroll-top { right: 16px; bottom: 96px; width: 44px; height: 44px; }
+}
 
 /* ===== Reveal ===== */
 .reveal {
