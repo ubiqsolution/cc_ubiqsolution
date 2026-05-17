@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ubiqsolution.pages.dev/sitemap.xml
+Sitemap: https://ubiqsolution.com/sitemap.xml
